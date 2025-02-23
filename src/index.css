@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@import '@fontsource/comfortaa';
+@import '@fontsource/roboto';
+@import '@fontsource/manrope';
+
+* {
+    cursor: none;
+}
+  
