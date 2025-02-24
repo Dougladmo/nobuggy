@@ -17,10 +17,20 @@ const Home = () => {
       },
     });
 
+    gsap.to("#services", {
+      y: "-100vh",
+      scrollTrigger: {
+        trigger: "#about",
+        start: "top bottom",
+        end: "top top",
+        scrub: true,
+      },
+    });
+    
     gsap.to("#hero-content", {
       y: -250, 
       scale: 0.2,
-      opacity: 0, 
+      opacity: 0.5, 
       scrollTrigger: {
         trigger: "#about",
         start: "top 90%",
@@ -36,14 +46,13 @@ const Home = () => {
         start: "top 90%",
         end: "bottom 50%",
         scrub: true,
-        onLeave: () => gsap.set("#hero", { display: "none" }),
         onEnterBack: () => gsap.set("#hero", { display: "flex", opacity: 1 }),
       },
     });
   }, []);
 
   return (
-    <main className="w-full h-screen overflow-x-hidden">
+    <main className="w-full h-screen">
       {/* HERO */}
       <div id="hero" className="relative w-full z-0 lg:h-[100vh]">
         <div
@@ -72,7 +81,7 @@ const Home = () => {
       {/* ABOUT */}
       <div
         id="about"
-        className="rounded-t-3xl bottom-3 relative px-10 z-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[100vh] text-white"
+        className="rounded-t-3xl bottom-3 relative px-10 z-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[90vh] text-white"
       >
         <div className="flex items-center justify-center w-full max-w-7xl">
           <div className="flex items-center justify-center w-1/2 mb-96 h-9/12">
@@ -91,9 +100,10 @@ const Home = () => {
         </div>
       </div>
       
+      {/* SERVICES */}
       <div
         id="services"
-        className="relative bottom-14 px-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[100vh] text-white"
+        className="relative bottom-4 px-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[90vh] text-white"
       >
         <div className="flex items-center justify-center w-full max-w-7xl">
           <div className="flex items-center justify-center w-2/5 ">
@@ -157,4 +167,3 @@ const Home = () => {
 };
 
 export default Home;
-

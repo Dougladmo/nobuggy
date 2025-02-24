@@ -8,4 +8,8 @@
 * {
     cursor: none;
 }
+
+body {
+    background-image: url('/bgAbout.jpg');
+}
   
