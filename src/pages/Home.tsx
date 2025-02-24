@@ -103,11 +103,11 @@ const Home = () => {
         {/* ABOUT */}
         <div
           id="about"
-          className="rounded-t-3xl bottom-3 relative p-10 p z-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[90vh] text-white"
+          className="rounded-t-3xl bottom-3 relative p-10 pt-36 p z-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[90vh] text-white"
         >
           <img src="/star.png" alt="estrela divisória" className="absolute left-0 -bottom-36" />
           <div className="flex items-center justify-center w-full max-w-7xl">
-            <div className="flex items-center justify-center w-1/2 mb-96 h-9/12">
+            <div className="flex items-center justify-center w-1/2 mb-96 h-10/12">
               <h2 className="text-8xl font-[Comfortaa] select-none">
                 <FaSquare size={10} color="#DE2B86" className="-translate-x-2 translate-y-1" /> Sobre <span className="block"> Nós </span>
               </h2>
@@ -118,7 +118,7 @@ const Home = () => {
                 Na Nobuggy, usamos a tecnologia para simplificar o complexo. Oferecemos soluções completas para impulsionar sua presença online, otimizar operações e conectar seu negócio ao futuro.
                 Nossa equipe é formada por profissionais prontos para transformar suas ideias em realidade. Seja para dar vida ao que você sempre sonhou ou para simplificar processos complexos, estamos aqui para tornar cada passo do seu sucesso mais fácil e inspirador.
               </p>
-              <img className="absolute right-0 -bottom-20" src="/plus-about.png" alt="icone mais" />
+              <img className="absolute right-0 -bottom-30" src="/plus-about.png" alt="icone mais" />
             </div>
           </div>
         </div>
