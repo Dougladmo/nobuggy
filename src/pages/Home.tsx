@@ -37,14 +37,27 @@ const Home = () => {
           ></div>
 
           <video
+            id='hero-desktop'
             autoPlay
             loop
             muted
             playsInline
             preload="auto"
-            className="absolute z-[0] top-0 left-0 w-full h-full object-cover"
+            className="absolute hidden md:flex z-[0] top-0 left-0 w-full h-full object-cover"
           >
-            <source src="https://site-nobuggy.s3.sa-east-1.amazonaws.com/videos/hero-nobuggy.mp4" type="video/mp4" />
+            <source src="https://site-nobuggy.s3.sa-east-1.amazonaws.com/videos/hero-nobuggy-desktop.mp4" type="video/mp4" />
+          </video>
+
+          <video
+            id='hero-mobile'
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            className="absolute md:hidden z-[0] top-0 left-0 w-full h-full object-cover"
+          >
+            <source src="https://site-nobuggy.s3.sa-east-1.amazonaws.com/videos/hero-nobuggy-mobile.mp4" type="video/mp4" />
           </video>
 
           <div id="hero-content" className="relative z-10 flex flex-col items-center justify-center w-full h-full gap-10 text-white">
