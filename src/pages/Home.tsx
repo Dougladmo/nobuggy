@@ -310,7 +310,7 @@ const Home = () => {
                 </label>
                 <button type="submit" className="px-10 py-3 transition duration-500 border border-white rounded-2xl hover:bg-white hover:text-black">Enviar</button>
               </form>
-              <button type='submit' className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
+              <button className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
                 <PiInstagramLogoLight size={25} />
               </button>
             </div>
