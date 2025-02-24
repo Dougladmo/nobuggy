@@ -30,7 +30,7 @@ const Header = () => {
             <HeaderLink title="Home" offset={-50} link="hero" />
           </li>
           <li className="cursor-pointer">
-            <HeaderLink title="Sobre Nós" offset={-50} link="about" />
+            <HeaderLink title="Sobre Nós" offset={-200} link="about" />
           </li>
           <li className="cursor-pointer">
             <HeaderLink title="Serviços" offset={-50} link="services" />

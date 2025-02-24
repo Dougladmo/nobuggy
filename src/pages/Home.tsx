@@ -191,7 +191,7 @@ const Home = () => {
           id="team"
           className="relative bottom-4 px-10 py-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[850px] text-white rounded-b-5xl"
         >
-          <div className="flex justify-center w-full h-full overflow-x-auto select-none">
+          <div className="flex w-full h-full mx-auto overflow-x-auto select-none ">
             <div className="flex items-center justify-start gap-5 min-w-max">
               <div className="relative w-[400px] h-full font-sans text-white shrink-0">
                 <img src="/manu.png" alt="manu card" className="absolute z-0 w-full" />
@@ -312,7 +312,7 @@ const Home = () => {
               <span>Para o</span>
               <span>Topo</span>
             </div>
-            <img src="/backToTop-arrow.svg" alt="arrow up" />
+            <img src="/backToTop-arrow.svg" alt="arrow up" className="transition duration-500 hover:-translate-y-4"/>
           </Link>
           <div className="flex items-center justify-center w-full h-full overflow-x-auto max-w-7xl">
 
