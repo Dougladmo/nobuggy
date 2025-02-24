@@ -13,3 +13,24 @@ body {
     background-image: url('/bgAbout.jpg');
 }
   
+/* Estilizando a barra de rolagem horizontal */
+::-webkit-scrollbar {
+    height: 8px; /* Altura da barra de rolagem */
+  }
+  
+  /* Fundo da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background: rgba(39, 39, 39, 0.137); /* Cor de fundo com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  /* Alça da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background: #721dfc; /* Cor da alça com transparência */
+    border-radius: 2px; /* Bordas arredondadas */
+  }
+  
+  /* Efeito hover na alça da barra de rolagem */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #721dfc5e; /* Cor da alça ao passar o mouse */
+  }
