@@ -2,27 +2,11 @@ import { useState, useEffect } from "react";
 import HeaderLink from "./HeaderLink";
 
 const Header = () => {
-  const [bgOpacity, setBgOpacity] = useState("bg-transparent");
-
-  const handleScroll = () => {
-    if (window.scrollY > 100) {
-      setBgOpacity("bg-black/70");
-    } else {
-      setBgOpacity("bg-transparent");
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <header
       id="header"
-      className={`fixed z-10 md:z-20 flex items-center justify-center w-screen py-6 text-white font-[manrope] transition-all duration-500 ${bgOpacity}`}
+      className='fixed z-10 md:z-20 flex items-center justify-center w-screen py-6 text-white font-[manrope] transition-all duration-500 bg-black/70'
     >
       <nav id="header-nav" className="w-full">
         <ul className="flex flex-wrap w-full justify-center row-gap-2 px-5 text-center gap-y-2 gap-x-5 md:items-center md:gap-16">
