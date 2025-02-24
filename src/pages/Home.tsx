@@ -6,46 +6,46 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
 
-  // useEffect(() => {
-  //   gsap.to("#about", {
-  //     y: "-100vh",
-  //     scrollTrigger: {
-  //       trigger: "#about",
-  //       start: "top bottom",
-  //       end: "top top",
-  //       scrub: true,
-  //     },
-  //   });
+  useEffect(() => {
+    gsap.to("#about", {
+      y: "-100vh",
+      scrollTrigger: {
+        trigger: "#about",
+        start: "top bottom",
+        end: "top top",
+        scrub: true,
+      },
+    });
 
-  //   gsap.to("#hero-content", {
-  //     y: -250, 
-  //     scale: 0.2,
-  //     opacity: 0, 
-  //     scrollTrigger: {
-  //       trigger: "#about",
-  //       start: "top 90%",
-  //       end: "top 60%",
-  //       scrub: true,
-  //     },
-  //   });
+    gsap.to("#hero-content", {
+      y: -250, 
+      scale: 0.2,
+      opacity: 0, 
+      scrollTrigger: {
+        trigger: "#about",
+        start: "top 90%",
+        end: "top 60%",
+        scrub: true,
+      },
+    });
 
-  //   gsap.to("#hero", {
-  //     pointerEvents: "none",
-  //     scrollTrigger: {
-  //       trigger: "#about",
-  //       start: "top 90%",
-  //       end: "bottom 50%",
-  //       scrub: true,
-  //       onLeave: () => gsap.set("#hero", { display: "none" }),
-  //       onEnterBack: () => gsap.set("#hero", { display: "flex", opacity: 1 }),
-  //     },
-  //   });
-  // }, []);
+    gsap.to("#hero", {
+      pointerEvents: "none",
+      scrollTrigger: {
+        trigger: "#about",
+        start: "top 90%",
+        end: "bottom 50%",
+        scrub: true,
+        onLeave: () => gsap.set("#hero", { display: "none" }),
+        onEnterBack: () => gsap.set("#hero", { display: "flex", opacity: 1 }),
+      },
+    });
+  }, []);
 
   return (
-    <main className="w-full h-screen">
+    <main className="w-full h-screen overflow-hidden">
       {/* HERO */}
-      <div id="hero" className="relative w-full z-0 lg:h-[100vh] overflow-hidden">
+      <div id="hero" className="relative w-full z-0 lg:h-[100vh]">
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover"
           style={{ backgroundImage: "url('/hero-static.svg')" }}
