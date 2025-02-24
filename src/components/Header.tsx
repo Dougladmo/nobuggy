@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header
       id="header"
-      className='fixed z-30 flex items-center justify-center w-screen py-6 text-white font-[manrope] transition-all duration-500 bg-black/80'
+      className='fixed top-0 z-30 flex items-center justify-center w-screen py-6 text-white font-[manrope] transition-all duration-500 bg-black/80'
     >
       <nav id="header-nav" className="w-full">
         <ul className="flex flex-wrap w-full justify-center row-gap-2 px-5 text-center gap-y-2 gap-x-5 md:items-center md:gap-16">
