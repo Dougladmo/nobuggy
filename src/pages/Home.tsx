@@ -168,7 +168,7 @@ const Home = () => {
       {/* EQUIPE */}
       <div
         id="team"
-        className="relative bottom-4 px-10 py-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[100vh] text-white"
+        className="relative bottom-4 px-10 py-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[850px] text-white"
       >
         <div className="w-full h-full overflow-x-auto max-w-7xl">
           <div className="flex items-center justify-start gap-5 min-w-max">
