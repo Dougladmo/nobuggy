@@ -297,16 +297,16 @@ const Home = () => {
               <h4 className="text-xl">Entre em contato</h4>
               <form className="font-[comfortaa] font-light text-white items-center justify-center p-8 border border-white rounded-3xl gap-8 flex flex-col">
                 <label htmlFor="Name">
-                  <input className="pb-2 border-b border-white w-72 md:w-72 indent-1 outline-0" type="text" placeholder="Nome" />
+                  <input className="pb-2 border-b border-white w-64 md:w-72 indent-1 outline-0" type="text" placeholder="Nome" />
                 </label>
                 <label htmlFor="Email">
-                  <input className="pb-2 border-b border-white w-72 md:w-72 indent-1 outline-0" type="text" placeholder="E-mail" />
+                  <input className="pb-2 border-b border-white w-64 md:w-72 indent-1 outline-0" type="text" placeholder="E-mail" />
                 </label>
                 <label htmlFor="Name">
-                  <input className="pb-2 border-b border-white w-72 md:w-72 indent-1 outline-0" type="text" placeholder="Assunto" />
+                  <input className="pb-2 border-b border-white w-64 md:w-72 indent-1 outline-0" type="text" placeholder="Assunto" />
                 </label>
                 <label htmlFor="Name">
-                  <input className="pb-2 border-b border-white w-72 md:w-72 indent-1 outline-0" type="text" placeholder="Mensagem" />
+                  <input className="pb-2 border-b border-white w-64 md:w-72 indent-1 outline-0" type="text" placeholder="Mensagem" />
                 </label>
                 <button type="submit" className="px-10 py-3 transition duration-500 border border-white rounded-2xl hover:bg-white hover:text-black">Enviar</button>
               </form>
