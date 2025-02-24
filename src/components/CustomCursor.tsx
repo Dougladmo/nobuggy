@@ -45,7 +45,7 @@ const CustomCursor = () => {
         transform: "translate(-50%, -50%)",
       }}
     >
-      <img src={`/cursors/${cursorType}`} alt="Custom Cursor" className="w-full h-full" />
+      <img src={`/cursors/${cursorType}`} alt="Custom Cursor" className="w-full h-full hidden md:flex " />
     </div>
   );
 };
