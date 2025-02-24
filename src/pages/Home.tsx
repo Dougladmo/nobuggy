@@ -66,7 +66,7 @@ const Home = () => {
               </h2>
             </div>
             <div className="relative flex items-center justify-center w-full mt-10 lg:w-1/2 lg:mt-52 h-9/12">
-              <img src="/aboutImg.svg" alt="foto about" className="absolute z-0 min-w-[300px] md:min-w-4xl" />
+              <img src="/aboutImg.svg" alt="foto about" className="absolute z-0 min-w-[600px] md:min-w-4xl" />
               <p className="z-10 max-w-lg font-sans text-base font-light leading-relaxed text-center select-none md:text-xl">
                 Na Nobuggy, usamos a tecnologia para simplificar o complexo. Oferecemos soluções completas para impulsionar sua presença online, otimizar operações e conectar seu negócio ao futuro.
                 Nossa equipe é formada por profissionais prontos para transformar suas ideias em realidade. Seja para dar vida ao que você sempre sonhou ou para simplificar processos complexos, estamos aqui para tornar cada passo do seu sucesso mais fácil e inspirador.
