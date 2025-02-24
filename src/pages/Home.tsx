@@ -302,15 +302,15 @@ const Home = () => {
                 <label htmlFor="Email">
                   <input className="pb-2 border-b border-white w-64 md:w-72 indent-1 outline-0" type="text" placeholder="E-mail" />
                 </label>
-                <label htmlFor="Name">
+                <label htmlFor="Subject">
                   <input className="pb-2 border-b border-white w-64 md:w-72 indent-1 outline-0" type="text" placeholder="Assunto" />
                 </label>
-                <label htmlFor="Name">
+                <label htmlFor="Message">
                   <input className="pb-2 border-b border-white w-64 md:w-72 indent-1 outline-0" type="text" placeholder="Mensagem" />
                 </label>
                 <button type="submit" className="px-10 py-3 transition duration-500 border border-white rounded-2xl hover:bg-white hover:text-black">Enviar</button>
               </form>
-              <button className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
+              <button type='submit' className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
                 <PiInstagramLogoLight size={25} />
               </button>
             </div>
