@@ -6,6 +6,7 @@ module.exports = {
           comfortaa: ["Comfortaa", "cursive"],
           roboto: ["Roboto", "sans-serif"],
           manrope: ["Manrope", "sans-serif"],
+          nunito: ["Nunito", "sans-serif"],
         },
       },
     },
