@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <>
 
-      <main className="w-full h-screen overflow-x-hidden">
+      <main className="w-full h-screen">
         {/* HERO */}
         <div id="hero" className="relative w-full z-0 h-[100vh]">
           <div
