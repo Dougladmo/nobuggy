@@ -72,7 +72,7 @@ const Home = () => {
       {/* ABOUT */}
       <div
         id="about"
-        className="rounded-t-3xl bottom-8 relative px-10 z-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[100vh] text-white"
+        className="rounded-t-3xl bottom-3 relative px-10 z-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[100vh] text-white"
       >
         <div className="flex items-center justify-center w-full max-w-7xl">
           <div className="flex items-center justify-center w-1/2 mb-96 h-9/12">
@@ -90,9 +90,10 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
       <div
         id="services"
-        className="relative bottom-9 px-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[100vh] text-white"
+        className="relative bottom-14 px-10 flex items-center justify-center w-full bg-[url('/bgAbout.jpg')] lg:h-[100vh] text-white"
       >
         <div className="flex items-center justify-center w-full max-w-7xl">
           <div className="flex items-center justify-center w-2/5 ">
@@ -156,3 +157,4 @@ const Home = () => {
 };
 
 export default Home;
+
