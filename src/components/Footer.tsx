@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <div id="footer" className="font-[comfortaa] font-light relative bottom-0 z-10 flex flex-col items-center justify-center gap-3 text-white bg-[#0E0E0E] py-5">
+    <div id="footer" className="font-[comfortaa] font-light z-20 mt-96 flex flex-col items-center justify-center gap-3 text-white bg-[#0E0E0E] py-5">
         <div className="text-sm">
             <a href="#" className="pr-5 border-r border-white">
                 Políticas de privacidade

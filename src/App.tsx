@@ -5,14 +5,12 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <>
       <CustomCursor />
       <Header />
-      <main className="flex-grow">
-        <Outlet />
-      </main>
+      <Outlet />
       <Footer />
-    </div>
+    </>
   );
 };
 

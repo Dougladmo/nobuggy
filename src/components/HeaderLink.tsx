@@ -7,15 +7,19 @@ type HeaderLinkProps = {
     offset: number;
 } 
 
-const HeaderLink = ( { link, title, offset }:HeaderLinkProps ) => {
+const HeaderLink = ({ link, title, offset }: HeaderLinkProps) => {
     return (
         <motion.div
             className='relative inline-block font-[manrope] z-20'
             whileHover="hover"
             initial="initial"
         >
+            <a href={`#${link}`} className="absolute inset-0 opacity-0" aria-hidden="true">
+                {title}
+            </a>
+
             <Link
-                className='relative text-lg cursor-pointer'
+                className='relative text-sm cursor-ointer md:text-lg'
                 to={link}
                 smooth={true}
                 offset={offset}
@@ -23,6 +27,7 @@ const HeaderLink = ( { link, title, offset }:HeaderLinkProps ) => {
             >
                 <span>{title}</span>
             </Link>
+
             <motion.div
                 className='absolute bottom-0 left-0 h-[2px] bg-[#fff]'
                 variants={{
@@ -35,4 +40,4 @@ const HeaderLink = ( { link, title, offset }:HeaderLinkProps ) => {
     )
 }
 
-export default HeaderLink
+export default HeaderLink;
