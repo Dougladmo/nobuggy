@@ -24,8 +24,8 @@ const Header = () => {
       id="header"
       className={`fixed z-10 -translate-y-1 md:z-20 flex items-center justify-center w-screen pt-6 pb-4 text-white font-[manrope] transition-all duration-500 ${bgOpacity}`}
     >
-      <nav id="header-nav" className="lg:w-auto">
-        <ul className="flex flex-wrap justify-center row-gap-2 px-5 text-center gap-y-2 gap-x-5 md:items-center md:gap-16">
+      <nav id="header-nav" className="w-full">
+        <ul className="flex flex-wrap w-full justify-center row-gap-2 px-5 text-center gap-y-2 gap-x-5 md:items-center md:gap-16">
           <li className="cursor-pointer">
             <HeaderLink title="Home" offset={-50} link="hero" />
           </li>
