@@ -168,12 +168,12 @@ const Home = () => {
                   <img src="/manu.png" alt="manu card" className="absolute z-0 w-full" />
                   <div className="absolute left-8 top-14 md:left-16 md:top-28 z-[1] flex flex-col w-full gap-10">
                     <div>
-                      <h3 className="flex gap-2 text-2xl md:flex-col md:flex md:text-5xl font-extralight">
+                      <h3 className="flex flex-col text-4xl md:gap-2 md:flex md:text-5xl font-extralight">
                         Manoela <span className="block">Ramôa</span>
                       </h3>
                       <div className="w-10 mt-8 mb-3 h-[1px] bg-white"></div>
-                      <p className="text-sm font-medium md:text-sm max-w-64">
-                        Designer Visual, Designer Gráfico e Produção de Conteúdo Audiovisual
+                      <p className="text-sm font-medium md:text-sm max-w-56 md:max-w-64">
+                        Designer Visual, Designer Gráfico <span className="block">e Produção de Conteúdo Audiovisual</span>
                       </p>
                     </div>
                     <ul className="flex flex-col text-base md:text-xl max-w-56 md:max-w-64">
@@ -183,7 +183,7 @@ const Home = () => {
                       <li className="text-left">Edição e Produção de Vídeo</li>
                       <li className="text-left">Material Publicitário e Impressos</li>
                     </ul>
-                    <p className="flex items-center gap-3 font-[comfortaa] mt-16">
+                    <p className="flex items-center gap-3 font-[comfortaa] mt-4">
                       <PiInstagramLogoLight size={35} />
                       <span className="text-sm md:text-lg">manoela_ramoa</span>
                     </p>
@@ -193,12 +193,12 @@ const Home = () => {
                   <img src="/giulia.png" alt="giulia card" className="absolute z-0 w-[300px] md:w-[400px]" />
                   <div className="absolute left-8 top-14 md:left-16 md:top-28 z-[1] flex flex-col w-full gap-10">
                     <div>
-                      <h3 className="flex gap-2 text-2xl md:flex-col md:text-5xl font-extralight">
+                      <h3 className="flex flex-col gap-2 text-4xl md:text-5xl font-extralight">
                         Giuliana <span className="block">Toppino</span>
                       </h3>
                       <div className="w-10 mt-8 mb-3 h-[1px] bg-white"></div>
-                      <p className="text-sm font-medium md:text-sm max-w-64">
-                        Desenvolvedora Front-End, UI Designer e Criação de Conteúdo
+                      <p className="text-sm font-medium md:text-sm md:max-w-64">
+                        Desenvolvedora Front-End <span className="block"> UI Designer e Criação de Conteúdo</span>
                       </p>
                     </div>
                     <ul className="flex flex-col text-base md:text-xl max-w-56 md:max-w-64">
@@ -206,7 +206,7 @@ const Home = () => {
                       <li className="text-left">UI Design & Implementação</li>
                       <li className="text-left">Gravação de Vídeo</li>
                     </ul>
-                    <p className="flex items-center gap-3 font-[comfortaa] mt-28">
+                    <p className="flex items-center gap-3 font-[comfortaa] mt-24">
                       <PiInstagramLogoLight size={35} />
                       <span className="text-sm md:text-lg">giuliana_toppino</span>
                     </p>
@@ -216,15 +216,15 @@ const Home = () => {
                   <img src="/douglas.png" alt="douglas card" className="absolute z-0 w-[300px] md:w-[400px]" />
                   <div className="absolute left-8 top-14 md:left-16 md:top-28 z-[1] flex flex-col w-full gap-10">
                     <div>
-                      <h3 className="flex gap-2 text-2xl md:flex-col md:text-5xl font-extralight">
+                      <h3 className="flex flex-col gap-2 text-4xl md:text-5xl font-extralight">
                         Douglas <span className="block">Oliveira</span>
                       </h3>
                       <div className="w-10 mt-8 mb-3 h-[1px] bg-white"></div>
-                      <p className="text-sm font-medium md:text-sm max-w-64">
+                      <p className="text-sm font-medium md:text-sm max-w-56 md:max-w-64">
                         Desenvolvedor Full-Stack e Desenvolvedor Mobile
                       </p>
                     </div>
-                    <ul className="flex flex-col text-base md:text-xl max-w-56 md:max-w-64">
+                    <ul className="flex flex-col text-sm md:text-xl max-w-56 md:max-w-64">
                       <li className="text-left">Desenvolvimento Front-End e Back-End</li>
                       <li className="text-left">Desenvolvimento Mobile</li>
                       <li className="text-left">Banco de Dados</li>
@@ -233,17 +233,17 @@ const Home = () => {
                       <li className="text-left">Cloud Computing</li>
                       <li className="text-left">Escalabilidade & Performance.</li>
                     </ul>
-                    <p className="flex items-center gap-3 font-[comfortaa] ">
+                    <p className="flex items-center gap-3 font-[comfortaa] mt-2 ">
                       <PiInstagramLogoLight size={35} />
                       <span className="text-sm md:text-lg">dougladmo_</span>
                     </p>
                   </div>
                 </div>
                 <div className="relative w-[300px] md:w-[400px] h-full font-sans text-white shrink-0">
-                  <img src="/czr.png" alt="czr card" className="absolute z-0 w-[300px] md:w-[400px]" />
+                  <img src="/czr.png" alt="czr card" className="absolute z-0 w-[300px] md:w-[400px] opacity-90" />
                   <div className="absolute left-8 top-14 md:left-16 md:top-28 z-[1] flex flex-col w-full gap-10">
                     <div>
-                      <h3 className="flex gap-2 text-2xl md:flex-col md:text-5xl font-extralight">
+                      <h3 className="flex flex-col gap-2 text-4xl md:text-5xl font-extralight">
                         Cezar <span className="block">Mutran</span>
                       </h3>
                       <div className="w-10 mt-8 mb-3 h-[1px] bg-white"></div>
@@ -251,7 +251,7 @@ const Home = () => {
                         Desenvolvedor Full-Stack e Automação
                       </p>
                     </div>
-                    <ul className="flex flex-col text-base md:text-xl max-w-56 md:max-w-64">
+                    <ul className="flex flex-col text-sm md:text-xl max-w-56 md:max-w-64">
                       <li className="text-left">Desenvolvimento Front-End e Back-End</li>
                       <li className="text-left">Banco de Dados</li>
                       <li className="text-left">Engenharia de Dados</li>
@@ -259,7 +259,7 @@ const Home = () => {
                       <li>Infraestrutura e Cloud Computing</li>
                       <li>Escalabilidade & Performance</li>
                     </ul>
-                    <p className="flex items-center gap-3 font-[comfortaa]">
+                    <p className="flex items-center gap-3 font-[comfortaa] mt-7">
                       <PiInstagramLogoLight size={35} />
                       <span className="text-sm md:text-lg">czr_mutran</span>
                     </p>
