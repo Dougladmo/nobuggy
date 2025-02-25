@@ -9,8 +9,8 @@
     cursor: none;
 }
 
-body {
-    background-image: url('/bgAbout.jpg');
+main {
+    background-image: url('/bgMain.jpg');
 }
   
 /* Estilizando a barra de rolagem horizontal */
