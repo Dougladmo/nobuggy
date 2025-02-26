@@ -275,6 +275,7 @@ const Home = () => {
           >
 
             <Link to="hero"
+              href='#hero'
               smooth={true}
               offset={-50}
               duration={1000}
