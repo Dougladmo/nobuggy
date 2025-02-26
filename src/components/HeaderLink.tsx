@@ -14,7 +14,7 @@ const HeaderLink = ({ link, title, offset }: HeaderLinkProps) => {
             whileHover="hover"
             initial="initial"
         >
-            <a href={`#${link}`} className="absolute inset-0 opacity-0" aria-hidden="true">
+            <a href={`https://nobuggy.com.br/`} className="absolute inset-0 opacity-0" aria-hidden="true">
                 {title}
             </a>
 
