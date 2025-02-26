@@ -30,7 +30,7 @@ const Home = () => {
     <>
         <main className="w-full overflow-x-hidden">
           {/* HERO */}
-          <div id="hero" className="relative w-full z-0 h-[100vh]">
+          <div id="hero" className="relative w-full z-0 h-[90vh]">
             <div
               className="absolute inset-0 bg-center bg-no-repeat bg-cover"
               style={{ backgroundImage: "url('/hero-static.svg')" }}
@@ -62,7 +62,7 @@ const Home = () => {
 
             <div id="hero-content" className="relative z-10 flex flex-col items-center justify-center w-full h-full gap-10 text-white">
               <h1 className="md:text-8xl text-6xl lg:text-9xl font-[Comfortaa] select-none">NoBuggy</h1>
-              <p className="md:text-2xl text-xl lg:text-2xl font-[Manrope] select-none">Inteligência que simplifica.</p>
+              <p className="md:text-2xl text-xl font-[Manrope] select-none">Inteligência que simplifica.</p>
             </div>
           </div>
 
@@ -70,18 +70,18 @@ const Home = () => {
           {/* ABOUT */}
           <div
             id="about"
-            className="rounded-t-3xl relative p-10 pb-64 pt-36 md:py-64 flex flex-col lg:flex-row items-center justify-center w-full lg:h-[90vh] text-white"
+            className="rounded-t-3xl relative p-10 pb-64 pt-36 md:py-32 sm:py-64 flex flex-col md:flex-row h-auto items-center justify-center w-full xl:h-[90vh] text-white"
           >
               <img src="/star.png" alt="estrela divisória" className="absolute left-0 z-10 -bottom-60 animate-pulse" />
-            <div className="flex flex-col items-center justify-center w-full lg:flex-row max-w-7xl">
-              <div className="flex items-center justify-center w-full mb-10 lg:w-1/2 lg:mb-96 h-11/12">
-                <h2 className="flex gap-5 lg:flex-col text-5xl lg:text-8xl font-[Comfortaa] select-none">
-                  <FaSquare size={10} color="#DE2B86" className="-translate-x-2 md:-translate-x-4 lg:translate-y-1" /> Sobre <span className="block"> Nós </span>
+            <div className="flex flex-col items-center justify-center w-full md:flex-row max-w-7xl">
+              <div className="flex items-center justify-center w-full mb-10 md:w-1/2 md:mb-96 h-11/12">
+                <h2 className="flex gap-5 md:flex-col text-5xl md:text-8xl font-[Comfortaa] select-none">
+                  <FaSquare size={10} color="#DE2B86" className="-translate-x-2 md:-translate-x-4 md:translate-y-1" /> Sobre <span className="block"> Nós </span>
                 </h2>
               </div>
-              <div className="relative flex items-center justify-center w-full mt-10 lg:w-1/2 lg:mt-52 h-9/12">
+              <div className="relative flex items-center justify-center w-full mt-10 md:w-1/2 md:mt-52 h-9/12">
                 <img src="/aboutImg.svg" alt="foto about" className="absolute z-0 min-w-[600px] md:min-w-4xl animate-pulse" />
-                <p className="z-10 max-w-lg font-sans text-base font-light leading-relaxed text-center select-none md:text-xl">
+                <p className="z-10 max-w-lg font-sans text-base font-light leading-relaxed text-center select-none md:text-lg lg:text-xl">
                   Na Nobuggy, usamos a tecnologia para simplificar o complexo. Oferecemos soluções completas para impulsionar sua presença online, otimizar operações e conectar seu negócio ao futuro.
                   Nossa equipe é formada por profissionais prontos para transformar suas ideias em realidade. Seja para dar vida ao que você sempre sonhou ou para simplificar processos complexos, estamos aqui para tornar cada passo do seu sucesso mais fácil e inspirador.
                 </p>
@@ -93,19 +93,19 @@ const Home = () => {
           {/* SERVICES */}
           <div
             id="services"
-            className="relative flex flex-col items-center justify-center w-full px-10 pt-32 text-white lg:flex-row pb-72"
+            className="relative flex flex-col items-center justify-center w-full px-10 pt-32 text-white md:flex-row pb-72"
           >
-            <div className="flex flex-col items-center justify-center w-full gap-5 lg:flex-row max-w-7xl">
-              <div className="flex flex-col items-center justify-center w-full md:flex-row lg:w-2/5 ">
+            <div className="flex flex-col items-center justify-center w-full gap-5 md:flex-row max-w-7xl">
+              <div className="flex flex-col items-center justify-center w-full md:flex-row md:w-2/5 ">
                 <h2 className="flex text-6xl md:flex-col lg:text-8xl font-[Comfortaa] select-none">
                   Ser <span className="block"> vi </span> <span className="flex"> ços </span>
                 </h2>
                 <img src="/services-arrow.svg" className="self-end w-16 mr-5 rotate-180 md:translate-y-5 md:self-end md:justify-self-end md:w-20 md:rotate-12" alt="seta serviços" />
               </div>
-              <div className="relative flex flex-col items-center justify-center w-full gap-10 mt-5 md:items-start lg:flex-row lg:w-3/5">
+              <div className="relative flex flex-col items-center justify-center w-full gap-10 mt-5 md:items-start md:flex-row md:w-3/5">
                 <div className="flex flex-col items-start w-full px-16 md:px-0">
-                  <h3 className="text-2xl md:text-4xl -translate-x-5 mb-5 md:mb-10 font-medium font-[nunito] tracking-wider flex items-center gap-2"> <FaSquare size={10} color="#DE2B86" /> Desenvolvimento</h3>
-                  <ul className="flex flex-col tracking-wide gap-2 text-base md:text-xl font-light font-[nunito]">
+                  <h3 className="text-2xl lg:text-4xl -translate-x-5 mb-5 md:mb-10 font-medium font-[nunito] tracking-wider flex items-center gap-2"> <FaSquare size={10} color="#DE2B86" /> Desenvolvimento</h3>
+                  <ul className="flex flex-col tracking-wide gap-2 text-base lg:text-xl font-light font-[nunito]">
                     <li className="text-left">
                       Desenvolvimento Web e Mobile
                     </li>
@@ -130,8 +130,8 @@ const Home = () => {
                   </ul>
                 </div>
                 <div className="flex flex-col items-start w-full px-16 md:px-0">
-                  <h3 className="text-2xl md:text-4xl -translate-x-5 mb-5 font-medium font-[nunito] tracking-wider flex items-center gap-2"> <FaSquare size={10} color="#DE2B86" /> Design</h3>
-                  <ul className="flex flex-col tracking-wide gap-2 text-base md:text-xl font-light font-[nunito]">
+                  <h3 className="text-2xl lg:text-4xl -translate-x-5 mb-5 font-medium font-[nunito] tracking-wider flex items-center gap-2"> <FaSquare size={10} color="#DE2B86" /> Design</h3>
+                  <ul className="flex flex-col tracking-wide gap-2 text-base md:text-sm lg:text-xl font-light font-[nunito]">
                     <li className="text-left">
                       Marketing Digital
                     </li>
@@ -271,14 +271,14 @@ const Home = () => {
 
           <div
             id="contact"
-            className="relative w-full flex flex-col lg:flex-row items-center justify-center px-5 pb-10 pt-36 md:p-10 text-white bg-center bg-[#0E0E0E]"
+            className="relative w-full flex flex-col md:flex-row items-center justify-center px-5 pb-10 pt-36 lg:p-10 text-white bg-center bg-[#0E0E0E]"
           >
 
             <Link to="hero"
               smooth={true}
               offset={-50}
               duration={1000}
-              className="group flex items-center font-[comfortaa] absolute right-5 top-10 transition duration-500">
+              className="group flex items-center font-[comfortaa] absolute right-5 -top-2 transition duration-500">
               <div className="flex flex-col">
                 <span>Voltar</span>
                 <span>Para o</span>
@@ -289,7 +289,7 @@ const Home = () => {
                 className="transition-transform duration-300 group-hover:-translate-y-4" />
             </Link>
 
-            <div className="flex flex-col items-center justify-center w-full h-full overflow-x-auto lg:flex-row max-w-7xl">
+            <div className="flex flex-col items-center justify-center w-full h-full overflow-x-auto md:flex-row max-w-7xl">
 
               <div className="relative z-10 w-full md:w-1/2">
                 <h3 className="absolute text-black top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl md:text-5xl z-20 font-light font-[comfortaa]">O <span className="block">próximo</span> passo é <span className="block">seu.</span></h3>
