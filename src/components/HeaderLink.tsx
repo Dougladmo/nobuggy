@@ -19,7 +19,7 @@ const HeaderLink = ({ link, title, offset }: HeaderLinkProps) => {
             </a>
 
             <Link
-                className='relative text-sm cursor-ointer md:text-lg'
+                className='relative text-sm cursor-pointer md:text-lg'
                 to={link}
                 smooth={true}
                 offset={offset}
