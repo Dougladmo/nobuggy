@@ -119,6 +119,9 @@ const Home = () => {
                       E-commerce e Vendas Online
                     </li>
                     <li className="text-left">
+                      Web Tour 360°
+                    </li>
+                    <li className="text-left">
                       Serviços de Dados
                     </li>
                     <li className="text-left">
