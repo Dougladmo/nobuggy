@@ -176,7 +176,7 @@ const Home = () => {
                         Manoela <span className="block">Ramôa</span>
                       </h3>
                       <div className="w-10 mt-8 mb-3 h-[1px] bg-white"></div>
-                      <p className="text-sm font-medium md:text-sm max-w-56 md:max-w-64">
+                      <p className="text-sm font-medium md:text-base max-w-56 md:max-w-64">
                         Designer Visual, Designer Gráfico <span className="block">e Produção de Conteúdo Audiovisual</span>
                       </p>
                     </div>
@@ -187,11 +187,11 @@ const Home = () => {
                       <li className="text-left">Edição e Produção de Vídeo</li>
                       <li className="text-left">Material Publicitário e Impressos</li>
                     </ul>
-                    <p className="flex items-center gap-3 font-[comfortaa] mt-4">
+                  </div>
+                    <p className="flex absolute left-8 bottom-20 md:left-15 items-center gap-3 font-[comfortaa] mt-24">
                       <PiInstagramLogoLight size={35} />
                       <span className="text-sm md:text-lg">manoela_ramoa</span>
                     </p>
-                  </div>
                 </div>
                 <div className="relative w-[300px] md:w-[400px] h-full font-sans text-white shrink-0">
                   <img src="/giulia.png" alt="giulia card" className="absolute z-0 w-[300px] md:w-[400px]" />
@@ -201,7 +201,7 @@ const Home = () => {
                         Giuliana <span className="block">Toppino</span>
                       </h3>
                       <div className="w-10 mt-8 mb-3 h-[1px] bg-white"></div>
-                      <p className="text-sm font-medium md:text-sm md:max-w-64">
+                      <p className="text-sm font-medium md:text-base max-w-56 md:max-w-64">
                         Desenvolvedora Front-End <span className="block"> UI Designer e Criação de Conteúdo</span>
                       </p>
                     </div>
@@ -210,11 +210,11 @@ const Home = () => {
                       <li className="text-left">UI Design & Implementação</li>
                       <li className="text-left">Gravação de Vídeo</li>
                     </ul>
-                    <p className="flex items-center gap-3 font-[comfortaa] mt-24">
+                  </div>
+                    <p className="flex absolute bottom-20 left-15 items-center gap-3 font-[comfortaa] mt-24">
                       <PiInstagramLogoLight size={35} />
                       <span className="text-sm md:text-lg">giuliana_toppino</span>
                     </p>
-                  </div>
                 </div>
                 <div className="relative w-[300px] md:w-[400px] h-full font-sans text-white shrink-0">
                   <img src="/douglas.png" alt="douglas card" className="absolute z-0 w-[300px] md:w-[400px]" />
@@ -224,7 +224,7 @@ const Home = () => {
                         Douglas <span className="block">Oliveira</span>
                       </h3>
                       <div className="w-10 mt-8 mb-3 h-[1px] bg-white"></div>
-                      <p className="text-sm font-medium md:text-sm max-w-56 md:max-w-64">
+                      <p className="text-sm font-medium md:text-base max-w-56 md:max-w-64">
                         Desenvolvedor Full-Stack e Desenvolvedor Mobile
                       </p>
                     </div>
@@ -237,11 +237,11 @@ const Home = () => {
                       <li className="text-left">Cloud Computing</li>
                       <li className="text-left">Escalabilidade & Performance.</li>
                     </ul>
-                    <p className="flex items-center gap-3 font-[comfortaa] mt-2 ">
+                  </div>
+                    <p className="flex absolute bottom-20 left-15 items-center gap-3 font-[comfortaa] mt-24">
                       <PiInstagramLogoLight size={35} />
                       <span className="text-sm md:text-lg">dougladmo_</span>
                     </p>
-                  </div>
                 </div>
                 <div className="relative w-[300px] md:w-[400px] h-full font-sans text-white shrink-0">
                   <img src="/czr.png" alt="czr card" className="absolute z-0 w-[300px] md:w-[400px] opacity-90" />
@@ -251,7 +251,7 @@ const Home = () => {
                         Cezar <span className="block">Mutran</span>
                       </h3>
                       <div className="w-10 mt-8 mb-3 h-[1px] bg-white"></div>
-                      <p className="text-sm font-medium md:text-sm max-w-56 md:max-w-64">
+                      <p className="text-sm font-medium md:text-base max-w-56 md:max-w-64">
                         Desenvolvedor Full-Stack e Automação
                       </p>
                     </div>
@@ -263,11 +263,11 @@ const Home = () => {
                       <li>Infraestrutura e Cloud Computing</li>
                       <li>Escalabilidade & Performance</li>
                     </ul>
-                    <p className="flex items-center gap-3 font-[comfortaa] mt-7">
+                  </div>
+                    <p className="flex absolute bottom-20 left-15 items-center gap-3 font-[comfortaa] mt-24">
                       <PiInstagramLogoLight size={35} />
                       <span className="text-sm md:text-lg">czr_mutran</span>
                     </p>
-                  </div>
                 </div>
               </div>
             </div>
