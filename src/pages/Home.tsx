@@ -29,51 +29,51 @@ const Home = () => {
 
   return (
     <>
-        <main className="w-full overflow-x-hidden select-none">
-          {/* HERO */}
-          <div id="hero" className="relative w-full z-0 h-[90vh]">
-            <div
-              className="absolute inset-0 bg-center bg-no-repeat bg-cover"
-              style={{ backgroundImage: "url('/hero-static.svg')" }}
-              ></div>
+      <main className="w-full overflow-x-hidden select-none">
+        {/* HERO */}
+        <div id="hero" className="relative w-full z-0 h-[90vh]">
+          <div
+            className="absolute inset-0 bg-center bg-no-repeat bg-cover"
+            style={{ backgroundImage: "url('/hero-static.svg')" }}
+          ></div>
 
-            <video
-              id='hero-desktop'
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="auto"
-              className="absolute hidden md:flex z-[0] top-0 left-0 w-full h-full object-cover"
-              >
-              <source src="https://site-nobuggy.s3.sa-east-1.amazonaws.com/videos/hero-nobuggy-desktop.mp4" type="video/mp4" />
-            </video>
+          <video
+            id='hero-desktop'
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            className="absolute hidden md:flex z-[0] top-0 left-0 w-full h-full object-cover"
+          >
+            <source src="https://site-nobuggy.s3.sa-east-1.amazonaws.com/videos/hero-nobuggy-desktop.mp4" type="video/mp4" />
+          </video>
 
-            <video
-              id='hero-mobile'
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="auto"
-              className="absolute md:hidden z-[0] top-0 left-0 w-full h-full object-cover"
-              >
-              <source src="https://site-nobuggy.s3.sa-east-1.amazonaws.com/videos/hero-nobuggy-mobile.mp4" type="video/mp4" />
-            </video>
+          <video
+            id='hero-mobile'
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            className="absolute md:hidden z-[0] top-0 left-0 w-full h-full object-cover"
+          >
+            <source src="https://site-nobuggy.s3.sa-east-1.amazonaws.com/videos/hero-nobuggy-mobile.mp4" type="video/mp4" />
+          </video>
 
-            <div id="hero-content" className="relative z-10 flex flex-col items-center justify-center w-full h-full gap-10 text-white">
-              <h1 className="md:text-8xl text-6xl lg:text-9xl font-[Comfortaa] select-none">NoBuggy</h1>
-              <p className="md:text-2xl text-xl font-[Manrope] select-none">Inteligência que simplifica.</p>
-            </div>
+          <div id="hero-content" className="relative z-10 flex flex-col items-center justify-center w-full h-full gap-10 text-white">
+            <h1 className="md:text-8xl text-6xl lg:text-9xl font-[Comfortaa] select-none">NoBuggy</h1>
+            <p className="md:text-2xl text-xl font-[Manrope] select-none">Inteligência que simplifica.</p>
           </div>
+        </div>
 
-          <Fade duration={1000}>
+        <Fade duration={1000}>
           {/* ABOUT */}
           <div
             id="about"
             className="rounded-t-3xl relative p-10 pb-64 pt-36 md:py-32 sm:py-64 flex flex-col md:flex-row h-auto items-center justify-center w-full xl:h-[90vh] text-white"
           >
-              <img src="/star.png" alt="estrela divisória" className="absolute left-0 z-10 -bottom-60 animate-pulse" />
+            <img src="/star.png" alt="estrela divisória" className="absolute left-0 z-10 -bottom-60 animate-pulse" />
             <div className="flex flex-col items-center justify-center w-full md:flex-row max-w-7xl">
               <div className="flex items-center justify-center w-full mb-10 md:w-1/2 md:mb-96 h-11/12">
                 <h2 className="flex gap-5 md:flex-col text-5xl md:text-8xl font-[Comfortaa] select-none">
@@ -188,10 +188,10 @@ const Home = () => {
                       <li className="text-left">Material Publicitário e Impressos</li>
                     </ul>
                   </div>
-                    <p className="flex absolute left-8 bottom-20 md:left-15 items-center gap-3 font-[comfortaa] mt-24">
-                      <PiInstagramLogoLight size={35} />
-                      <span className="text-sm md:text-lg">manoela_ramoa</span>
-                    </p>
+                  <p className="flex absolute left-8 bottom-20 md:left-15 items-center gap-3 font-[comfortaa] mt-24">
+                    <PiInstagramLogoLight size={35} />
+                    <span className="text-sm md:text-lg">manoela_ramoa</span>
+                  </p>
                 </div>
                 <div className="relative w-[300px] md:w-[400px] h-full font-sans text-white shrink-0">
                   <img src="/giulia.png" alt="giulia card" className="absolute z-0 w-[300px] md:w-[400px]" />
@@ -211,10 +211,10 @@ const Home = () => {
                       <li className="text-left">Gravação de Vídeo</li>
                     </ul>
                   </div>
-                    <p className="flex absolute bottom-20 left-15 items-center gap-3 font-[comfortaa] mt-24">
-                      <PiInstagramLogoLight size={35} />
-                      <span className="text-sm md:text-lg">giuliana_toppino</span>
-                    </p>
+                  <p className="flex absolute bottom-20 left-15 items-center gap-3 font-[comfortaa] mt-24">
+                    <PiInstagramLogoLight size={35} />
+                    <span className="text-sm md:text-lg">giuliana_toppino</span>
+                  </p>
                 </div>
                 <div className="relative w-[300px] md:w-[400px] h-full font-sans text-white shrink-0">
                   <img src="/douglas.png" alt="douglas card" className="absolute z-0 w-[300px] md:w-[400px]" />
@@ -238,10 +238,10 @@ const Home = () => {
                       <li className="text-left">Escalabilidade & Performance.</li>
                     </ul>
                   </div>
-                    <p className="flex absolute bottom-20 left-15 items-center gap-3 font-[comfortaa] mt-24">
-                      <PiInstagramLogoLight size={35} />
-                      <span className="text-sm md:text-lg">dougladmo_</span>
-                    </p>
+                  <p className="flex absolute bottom-20 left-15 items-center gap-3 font-[comfortaa] mt-24">
+                    <PiInstagramLogoLight size={35} />
+                    <span className="text-sm md:text-lg">dougladmo_</span>
+                  </p>
                 </div>
                 <div className="relative w-[300px] md:w-[400px] h-full font-sans text-white shrink-0">
                   <img src="/czr.png" alt="czr card" className="absolute z-0 w-[300px] md:w-[400px] opacity-90" />
@@ -264,10 +264,10 @@ const Home = () => {
                       <li>Escalabilidade & Performance</li>
                     </ul>
                   </div>
-                    <p className="flex absolute bottom-20 left-15 items-center gap-3 font-[comfortaa] mt-24">
-                      <PiInstagramLogoLight size={35} />
-                      <span className="text-sm md:text-lg">czr_mutran</span>
-                    </p>
+                  <p className="flex absolute bottom-20 left-15 items-center gap-3 font-[comfortaa] mt-24">
+                    <PiInstagramLogoLight size={35} />
+                    <span className="text-sm md:text-lg">czr_mutran</span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -314,14 +314,14 @@ const Home = () => {
               </div>
               <div className="flex flex-col items-center justify-center w-full gap-4 md:w-1/2">
                 <EmailForm />
-                <div className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
+                <a href="https://www.instagram.com/nobuggybelem/" target="_blank" className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
                   <PiInstagramLogoLight size={25} />
-                </div>
+                </a>
               </div>
             </div>
           </div>
-      </Fade>
-        </main>
+        </Fade>
+      </main>
     </>
   );
 };
