@@ -314,7 +314,7 @@ const Home = () => {
               </div>
               <div className="flex flex-col items-center justify-center w-full gap-4 md:w-1/2">
                 <EmailForm />
-                <a href="https://www.instagram.com/nobuggybelem/" target="_blank" className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
+                <a href="https://www.instagram.com/nobuggybelem/" aria-label="instagram link" target="_blank" className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
                   <PiInstagramLogoLight size={25} />
                 </a>
               </div>
