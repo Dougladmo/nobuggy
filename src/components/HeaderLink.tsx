@@ -14,12 +14,10 @@ const HeaderLink = ({ link, title, offset }: HeaderLinkProps) => {
             whileHover="hover"
             initial="initial"
         >
-            <a href={`#${link}`} className="absolute inset-0 opacity-0" aria-hidden="true">
-                {title}
-            </a>
 
             <Link
-                className='relative text-sm cursor-ointer md:text-lg'
+                href={`${link}`}
+                className='relative text-sm cursor-pointer md:text-lg'
                 to={link}
                 smooth={true}
                 offset={offset}

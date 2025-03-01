@@ -134,7 +134,7 @@ const Home = () => {
                 </div>
                 <div className="flex flex-col items-start w-full px-16 md:px-0">
                   <h3 className="text-2xl lg:text-4xl -translate-x-5 mb-5 font-medium font-[nunito] tracking-wider flex items-center gap-2"> <FaSquare size={10} color="#DE2B86" /> Design</h3>
-                  <ul className="flex flex-col tracking-wide gap-2 text-base md:text-sm lg:text-xl font-light font-[nunito]">
+                  <ul className="flex flex-col tracking-wide gap-2 text-base lg:text-xl font-light font-[nunito]">
                     <li className="text-left">
                       Marketing Digital
                     </li>
@@ -278,6 +278,7 @@ const Home = () => {
           >
 
             <Link to="hero"
+              href='#hero'
               smooth={true}
               offset={-50}
               duration={1000}
@@ -327,9 +328,9 @@ const Home = () => {
                   </label>
                   <button type="submit" className="px-10 py-3 transition duration-500 border border-white rounded-2xl hover:bg-white hover:text-black">Enviar</button>
                 </form>
-                <button className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
+                <div className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
                   <PiInstagramLogoLight size={25} />
-                </button>
+                </div>
               </div>
             </div>
           </div>
