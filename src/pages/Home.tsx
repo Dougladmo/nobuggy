@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { PiInstagramLogoLight } from "react-icons/pi";
 import { Link } from "react-scroll";
 import { Fade } from 'react-awesome-reveal'
+import EmailForm from "../components/EmailForm";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -28,7 +29,7 @@ const Home = () => {
 
   return (
     <>
-        <main className="w-full overflow-x-hidden">
+        <main className="w-full overflow-x-hidden select-none">
           {/* HERO */}
           <div id="hero" className="relative w-full z-0 h-[90vh]">
             <div
@@ -282,7 +283,7 @@ const Home = () => {
               smooth={true}
               offset={-50}
               duration={1000}
-              className="group flex items-center font-[comfortaa] absolute right-5 -top-2 transition duration-500">
+              className="group select-none flex items-center font-[comfortaa] absolute right-5 -top-2 transition duration-500">
               <div className="flex flex-col">
                 <span>Voltar</span>
                 <span>Para o</span>
@@ -312,22 +313,7 @@ const Home = () => {
                 </video>
               </div>
               <div className="flex flex-col items-center justify-center w-full gap-4 md:w-1/2">
-                <h4 className="text-xl">Entre em contato</h4>
-                <form className="font-[comfortaa] font-light text-white items-center justify-center p-8 border border-white rounded-3xl gap-8 flex flex-col">
-                  <label htmlFor="Name">
-                    <input className="w-64 pb-2 border-b border-white md:w-72 indent-1 outline-0" type="text" placeholder="Nome" />
-                  </label>
-                  <label htmlFor="Email">
-                    <input className="w-64 pb-2 border-b border-white md:w-72 indent-1 outline-0" type="text" placeholder="E-mail" />
-                  </label>
-                  <label htmlFor="Subject">
-                    <input className="w-64 pb-2 border-b border-white md:w-72 indent-1 outline-0" type="text" placeholder="Assunto" />
-                  </label>
-                  <label htmlFor="Message">
-                    <input className="w-64 pb-2 border-b border-white md:w-72 indent-1 outline-0" type="text" placeholder="Mensagem" />
-                  </label>
-                  <button type="submit" className="px-10 py-3 transition duration-500 border border-white rounded-2xl hover:bg-white hover:text-black">Enviar</button>
-                </form>
+                <EmailForm />
                 <div className="self-center p-2 transition duration-500 rounded-full hover:bg-white/30">
                   <PiInstagramLogoLight size={25} />
                 </div>
