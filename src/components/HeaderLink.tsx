@@ -16,7 +16,7 @@ const HeaderLink = ({ link, title, offset }: HeaderLinkProps) => {
         >
 
             <Link
-                href={`${link}`}
+                href={link}
                 className='relative text-sm cursor-pointer md:text-lg'
                 to={link}
                 smooth={true}
